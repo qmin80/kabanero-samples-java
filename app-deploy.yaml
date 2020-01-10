@@ -41,7 +41,7 @@ metadata:
   namespace: kabanero-samples-java
 spec:
   applicationImage: dev.local/appsody-sample-springboot
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
