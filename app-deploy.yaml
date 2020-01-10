@@ -17,7 +17,6 @@ metadata:
     k8s.io/display-name: Red Hat Universal Base Image 8
     maintainer: Red Hat, Inc.
     name: kabanero/java-spring-boot2
-    namespace: kabanero-samples-java
     openshift.io/expose-services: ""
     openshift.io/tags: base rhel8
     redhat.com/build-host: cpt-1002.osbs.prod.upshift.rdu2.redhat.com
@@ -39,6 +38,7 @@ metadata:
     image.opencontainers.org/title: appsody-sample-springboot
     stack.appsody.dev/version: 0.3.18
   name: appsody-sample-springboot
+  namespace: kabanero-samples-java
 spec:
   applicationImage: dev.local/appsody-sample-springboot
   createKnativeService: false
